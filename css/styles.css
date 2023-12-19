@@ -12,10 +12,28 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 ol,
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1158 px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Header */
@@ -70,6 +88,11 @@ ul {
 }
 
 .hero-section-text {
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+
   color: #fff;
   text-align: center;
   font-size: 56px;
