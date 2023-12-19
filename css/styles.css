@@ -45,6 +45,7 @@ img {
 }
 .header-container {
   display: flex;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -53,10 +54,8 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-adress-link {
-  padding: 24px 0;
   display: flex;
   margin-left: 332px;
   gap: 40px;
@@ -108,10 +107,11 @@ img {
 /* 1 section */
 .hero-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-section-text {
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -126,7 +126,13 @@ img {
 }
 
 .hero-section-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+
   background-color: #4d5ae5;
+  border-radius: 4px;
   color: #fff;
   font-style: normal;
   font-weight: 500;
