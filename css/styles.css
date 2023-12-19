@@ -32,7 +32,7 @@ img {
   display: block;
 }
 .container {
-  width: 1158 px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -41,10 +41,10 @@ img {
 
 /* Header */
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -53,12 +53,14 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-adress-link {
   display: flex;
+  margin-left: 332px;
+  gap: 40px;
 }
 .logo {
-  margin-right: 76px;
 }
 .header-link-logo {
   color: #4d5ae5;
@@ -73,6 +75,7 @@ img {
 
 .header-link-logo-part {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .header-link {
