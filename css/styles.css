@@ -41,7 +41,9 @@ img {
 .haeder {
   border-bottom: 1px solid #e7e9fc;
 }
-
+.haeder-container {
+  display: flex;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -49,6 +51,13 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+}
+.header-item {
+  padding: 24px 0;
+
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .header-adress-link {
   display: flex;
@@ -78,20 +87,14 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header-item {
-  padding: 24px 0;
-
-  color: #2e2f42;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
 
 .header-adress {
+  display: flex;
+  gap: 40px;
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
