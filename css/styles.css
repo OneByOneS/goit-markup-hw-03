@@ -163,11 +163,11 @@ img {
 }
 .about-us-container {
   padding: 120px 0;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .about-us-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .about-us-subject {
   margin-bottom: 8px;
