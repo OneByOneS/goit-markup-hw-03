@@ -40,8 +40,7 @@ img {
 }
 
 /* Header */
-.header {
-}
+
 .header-container {
   display: flex;
   padding: 24px 0;
@@ -260,11 +259,17 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-section-subject-item {
   color: #434455;
   letter-spacing: 0.02em;
+}
+.portfolio-section-list-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* Footer */
