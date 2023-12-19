@@ -56,14 +56,12 @@ img {
   padding: 24px 0;
 }
 .header-adress-link {
+  padding: 24px 0;
   display: flex;
   margin-left: 332px;
   gap: 40px;
-  padding: 24px 0;
 }
-.header-logo {
-  margin-right: 76px;
-}
+
 .header-link-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -73,6 +71,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-link-logo-part {
