@@ -217,14 +217,20 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-section-subject-item {
   color: #434455;
   text-align: center;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
+.name-position {
+  padding: 32px 0;
+}
 /* 4 section */
 .portfolio-title {
   color: #2e2f42;
