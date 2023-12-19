@@ -33,19 +33,15 @@ img {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Header */
-
-.header-container {
-  display: flex;
-  padding: 24px 0;
+.haeder {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -83,6 +79,8 @@ img {
 }
 
 .header-item {
+  padding: 24px 0;
+
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
