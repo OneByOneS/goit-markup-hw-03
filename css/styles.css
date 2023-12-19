@@ -39,7 +39,19 @@ ul {
 /* Header */
 .header {
 }
-
+.header-container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-adress-link {
+  display: flex;
+}
 .header-link-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -53,6 +65,7 @@ ul {
 
 .header-link-logo-part {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .header-link {
