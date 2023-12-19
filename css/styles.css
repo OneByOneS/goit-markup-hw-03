@@ -161,11 +161,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.about-us-container {
+.about-us-section {
   padding: 120px 0;
-  flex-basis: calc((100% - 72px) / 4);
 }
 .about-us-list {
+  flex-basis: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
