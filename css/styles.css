@@ -63,6 +63,8 @@ img {
   display: flex;
   margin-left: 332px;
   gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-link-logo {
@@ -75,6 +77,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
 }
 
 .header-link-logo-part {
